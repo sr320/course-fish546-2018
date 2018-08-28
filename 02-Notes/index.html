@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FISH546</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: "Encode Sans Normal", serif }
+      h1, h2, h3 {
+        font-family: 'Encode Sans Normal';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-slide-container {transition: opacity 0.5s ease-out;opacity: 0;}
+      .remark-visible {transition: opacity 0.5s ease-out;opacity: 1;}
+
+    </style>
+  </head>
+  <body>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured" type="text/javascript"></script>
+
+    <script src="remark-latest.min.js">
+    </script>
+
+    <script>
+    var slideshow = remark.create({
+      navigation: {click: false, scroll: false},
+      properties: {class: "center, middle"},
+      sourceUrl: 'slides.md',
+      countIncrementalSlides: false
+                                  });
+
+    // Setup MathJax
+    MathJax.Hub.Config({
+        tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+        }
+    });
+
+    MathJax.Hub.Queue(function() {
+        $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+            return(elem.SourceElement());
+        }).parent().addClass('has-jax');
+    });
+
+    MathJax.Hub.Configured();
+    </script>
+  </body>
+</html>

@@ -5,7 +5,6 @@ class: center, middle
 
 https://github.com/sr320/course-fish546-2018/wiki
 
-##genefish.info
 
 Steven Roberts
 @sr320
@@ -28,7 +27,7 @@ Steven Roberts
 
 --
 
-- Collaborative based education model
+- Collaborative based education model:  
 Variable backgrounds of students
 
 

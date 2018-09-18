@@ -1,9 +1,9 @@
-#Setting up Bioinformatic Environment in Windows
+# Setting up Bioinformatic Environment in Windows
 
-I installed Windows 7 (64-bit) to mimic this  environment for teaching. 
+I installed Windows 7 (64-bit) to mimic this  environment for teaching.
 
 
-##Git for Windows
+## Git for Windows
 Based on Software Carpentry recommendations will ...
 
 >Important: on the 6th page of the installation wizard (the page titled `Configuring the terminal emulator...`) select `Use Windows' default console window`. If you forgot to do this programs that you need for the workshop will not work properly. If this happens rerun the installer and select the appropriate option. This will provide you with both Git and Bash in the Git Bash program.
@@ -25,8 +25,8 @@ Make sure to select *Use Windows default console window*
 
 ---
 
-Play around... 
-From start menu selected Git Bash. 
+Play around...
+From start menu selected Git Bash.
 It is not pretty, but `pwd`, `ls`, work
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/MINGW64__c_Users_sr320_Desktop_1BB99F45.png" alt="MINGW64__c_Users_sr320_Desktop_1BB99F45.png"/>
@@ -65,8 +65,3 @@ Going to set-up new repo (for safety)
 
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/GitHub_1BB9B82B.png" alt="GitHub_1BB9B82B.png"/>
-
-
-
-
-

@@ -1,11 +1,11 @@
-#Just Text
 
-##Navigating the computer from the command line
-In this module we will be following a Software Carpentry Lesson. It is suggested that you have this page open to follow along and a bash shell window. 
+
+## Navigating the computer from the command line
+In this exercise we will be following a Software Carpentry Lesson. It is suggested that you have this page open to follow along and a bash shell window.
 
 ---
 
-#The Unix Shell
+# The Unix Shell
 
 *credit*:    
 [![sc](http://eagle.fish.washington.edu/cnidarian/skitch/Files_and_Directories_1A575F8C.png)](http://software-carpentry.org/)   
@@ -15,7 +15,7 @@ see also
 
 ---
 
-#Intro
+# Intro
 
 > ## Learning Objectives
 >
@@ -63,7 +63,7 @@ it shows us who the shell thinks we are:
 ```
 $ whoami
 ```
-``` 
+```
 yourname
 ```
 
@@ -92,12 +92,12 @@ which is Nelle's **home directory**:
 ```
 $ pwd
 ```
-``` 
+```
 /users/nelle
 ```
 <!---
-> ## Alphabet Soup 
-> 
+> ## Alphabet Soup
+>
 > If the command to find out who we are is `whoami`, the command to find
 > out where we are ought to be called `whereami`, so why is it `pwd`
 > instead? The usual answer is that in the early 1970s, when Unix was
@@ -142,11 +142,11 @@ because its name begins with `/`.
 > it refers to the root directory. When it appears *inside* a name,
 > it's just a separator.
 
---- 
+---
 
 So that we have the same experience lets navigate to the 'fake' directory structure you just downloaded.  For example on a Mac you can type `cd Desktop/shell-novice/data/users/nelle` if you are in your home direcotory.
 
-##ls
+## ls
 
 Let's see what's in Nelle's home directory by running `ls`,
 which stands for "listing":
@@ -189,7 +189,7 @@ which doesn't exist.
 
 <!--
 > ## What's In A Name?
-> 
+>
 > You may have noticed that all of Nelle's files' names are "something dot
 > something". This is just a convention: we can call a file `mythesis` or
 > almost anything else we want. However, most people use two-part names
@@ -213,7 +213,7 @@ which doesn't exist.
 -->
 
 
-##relative path
+## relative path
 Now let's take a look at what's in Nelle's `data` directory by running `ls -F data`,
 i.e.,
 the command `ls` with the **arguments** `-F` and `data`.
@@ -224,7 +224,7 @@ we want a listing of something other than our current working directory:
 ```
 $ ls -F data
 ```
-``` 
+```
 amino-acids.txt   elements/     morse.txt
 pdb/              planets.txt   sunspot.txt
 ```
@@ -255,7 +255,8 @@ rather than from the root of the file system.
 
 -->
 
-##absolute path
+## absolute path
+
 If we run `ls -F /data` (*with* a leading slash) we get a different answer,
 because `/data` is an **absolute path**:
 
@@ -263,7 +264,7 @@ because `/data` is an **absolute path**:
 $ ls -F /data
 ```
 
-``` 
+```
 access.log    backup/    hardware.cfg
 network.cfg
 ```
@@ -273,7 +274,7 @@ network.cfg
 
 
 
-The leading `/` tells the computer to follow the path from the root of the filesystem,
+The leading `/` ( or possibly `/c/` if you are using Git Bash on Windows) tells the computer to follow the path from the root of the filesystem,
 so it always refers to exactly one directory,
 no matter where we are when we run the command.
 
@@ -285,7 +286,7 @@ and `ls` without any arguments shows us that directory's contents:
 ```
 $ pwd
 ```
-``` 
+```
 /users/nelle
 ```
 ```
@@ -322,7 +323,7 @@ $ pwd
 ```
 $ ls -F
 ```
-``` 
+```
 amino-acids.txt   elements/     morse.txt
 pdb/              planets.txt   sunspot.txt
 ```
@@ -340,7 +341,7 @@ but it's almost always simpler to use `cd ..` to go up one level:
 ```
 $ pwd
 ```
-``` 
+```
 /users/nelle/data
 ```
 ```
@@ -367,7 +368,7 @@ If we want to display it, we can give `ls` the `-a` flag:
 ```
 $ ls -F -a
 ```
-``` 
+```
 ./          Desktop/             pizza.cfg
 ../         molecules/           solar.pdf
 creatures/  north-pacific-gyre/  writing/
@@ -385,7 +386,7 @@ but we'll see some uses for it soon.
 
 <!--
 > ## Orthogonality {.callout}
-> 
+>
 > The special names `.` and `..` don't belong to `ls`;
 > they are interpreted the same way by every program.
 > For example,
@@ -397,7 +398,7 @@ but we'll see some uses for it soon.
 > because there are fewer special cases and exceptions to keep track of.
 > --->
 
-##Nelle's Pipeline: Organizing Files
+## Nelle's Pipeline: Organizing Files
 
 Knowing just this much about files and directories,
 Nelle is ready to organize the files that the protein assay machine will create.
@@ -464,7 +465,7 @@ and we will see it in many other tools as we go on.
 
 
 
-##Key Points
+## Key Points
 
 * The file system is responsible for managing information on the disk.
 * Information is stored in files, which are stored in directories (folders).
@@ -472,21 +473,21 @@ and we will see it in many other tools as we go on.
 * `/` on its own is the root directory of the whole filesystem.
 * A relative path specifies a location starting from the current location.
 * An absolute path specifies a location from the root of the filesystem.
-* Directory names in a path are separated with '/' on Unix, but '\' on Windows.
-* '..' means "the directory above the current one"; '.' on its own means "the current directory".
+* Directory names in a path are separated with `/` on Unix, but `\` on Windows.
+* `..` means "the directory above the current one"; `.` on its own means "the current directory".
 * Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything, but is normally used to indicate the type of data in the file.
-* Most commands take options (flags) which begin with a '-'.
+* Most commands take options (flags) which begin with a `-`.
 
 <!--
 
-#Quiz
+# Quiz
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/Files_and_Directories_1A575F26.png" alt="Filesystem for Challenge Questions" />
 
 
 >
 > If `pwd` displays `/users/thing`, what will `ls ../backup` display?
-> 
+>
 > 1.  `../backup: No such file or directory`
 > 2.  `2012-12-01 2013-01-08 2013-01-27`
 > 3.  `2012-12-01/ 2013-01-08/ 2013-01-27/`
@@ -497,11 +498,11 @@ and we will see it in many other tools as we go on.
 > If `pwd` displays `/users/backup`,
 > and `-r` tells `ls` to display things in reverse order,
 > what command will display:
-> 
+>
 > ```
 > pnas-sub/ pnas-final/ original/
 > ```
-> 
+>
 > 1.  `ls pwd`
 > 2.  `ls -r -F`
 > 3.  `ls -r -F /users/backup`
@@ -509,7 +510,7 @@ and we will see it in many other tools as we go on.
 
 ---
 > What does the command `cd` without a directory name do?
-> 
+>
 > 1.  It has no effect.
 > 2.  It changes the working directory to `/`.
 > 3.  It changes the working directory to the user's home directory.
@@ -524,7 +525,7 @@ and we will see it in many other tools as we go on.
 
 # Creating Things
 
-#### Objectives 
+#### Objectives
 
 * Create a directory hierarchy that matches a given diagram.
 * Create files in that hierarchy using an editor or by copying and renaming existing files.
@@ -539,7 +540,7 @@ We now know how to explore files and directories, but how do we create them in t
 
 **Actually**   will look something more like `/Users/sr320/Desktop/shell-novice/data/users/nelle`
 
-    
+
 
     $ ls -F
 
@@ -766,8 +767,8 @@ Now that we know a few basic commands, we can finally look at the shell's most p
 
     cubane.pdb    ethane.pdb    methane.pdb
     octane.pdb    pentane.pdb   propane.pdb
-    
-##word count
+
+## word count
 
 Let's go into that directory with `cd` and run the command `wc *.pdb`. `wc` is the "word count" command: it counts the number of lines, words, and characters in files. The `*` in `*.pdb` matches zero or more characters, so the shell turns `*.pdb` into a complete list of `.pdb` files:
 
@@ -785,7 +786,7 @@ Let's go into that directory with `cd` and run the command `wc *.pdb`. `wc` is t
 ### Wildcards
 `*` is a [wildcard][4]. It matches zero or more characters, so `*.pdb` matches `ethane.pdb`, `propane.pdb`, and so on. On the other hand, `p*.pdb` only matches `pentane.pdb` and `propane.pdb`, because the 'p' at the front only matches itself.
 
- `?` is also a wildcard, but it only matches a single character. This means that `p?.pdb` matches `pi.pdb` or `p5.pdb`, but not `propane.pdb`. We can use any number of wildcards at a time: for example, `p*.p?*` matches anything that starts with a 'p' and ends with '.', 'p', and at least one more character (since the '?' has to match one character, and the final '*' can match any number of characters). Thus, `p*.p?*` would match `preferred.practice`, and even `p.pi` (since the first '*' can match no characters at all), but not `quality.practice` (doesn't start with 'p') or `preferred.p` (there isn't at least one character after the '.p').
+ `?` is also a wildcard, but it only matches a single character. This means that `p?.pdb` matches `pi.pdb` or `p5.pdb`, but not `propane.pdb`. We can use any number of wildcards at a time: for example, `p*.p?*` matches anything that starts with a  'p' and ends with '.', 'p', and at least one more character (since the '?' has to match one character, and the final `*` can match any number of characters). Thus, `p*.p?*` would match `preferred.practice`, and even `p.pi` (since the first `*` can match no characters at all), but not `quality.practice` (doesn't start with 'p') or `preferred.p` (there isn't at least one character after the '.p').
 
 When the shell sees a wildcard, it expands the wildcard to create a list of matching filenames _before_ running the command that was asked for. This means that commands like `wc` and `ls` never see the wildcard characters, just what those wildcards matched. This is another example of orthogonal design.
 
@@ -803,7 +804,7 @@ If we run `wc -l` instead of just `wc`, the output shows only the number of line
 
 We can also use `-w` to get only the number of words, or `-c` to get only the number of characters.
 
-##redirect
+## redirect
 Which of these files is shortest? It's an easy question to answer when there are only six files, but what if there were 6000? Our first step toward a solution is to run the command:
 
     $ wc -l *.pdb > lengths
@@ -813,7 +814,9 @@ The `>` tells the shell to [redirect][5] the command's output to a file instead 
     $ ls lengths
 
     lengths
-##cat
+
+
+## cat
 We can now send the content of `lengths` to the screen using `cat lengths`. `cat` stands for "concatenate": it prints the contents of files one after another. There's only one file in this case, so `cat` just shows us what it contains:
 
     $ cat lengths
@@ -825,7 +828,8 @@ We can now send the content of `lengths` to the screen using `cat lengths`. `cat
       21  pentane.pdb
       15  propane.pdb
      107  total
-##sort
+
+## sort
 Now let's use the `sort` command to sort its contents. We will also use the -n flag to specify that the sort is numerical instead of alphabetical. This does _not_ change the file; instead, it sends the sorted result to the screen:
 
     $ sort -n lengths
@@ -838,7 +842,7 @@ Now let's use the `sort` command to sort its contents. We will also use the -n f
      30  octane.pdb
     107  total
 
-##head
+## head
 We can put the sorted list of lines in another temporary file called `sorted-lengths` by putting `> sorted-lengths` after the command, just as we used `> lengths` to put the output of `wc` into `lengths`. Once we've done that, we can run another command called `head` to get the first few lines in `sorted-lengths`:
 
     $ sort -n lengths > sorted-lengths
@@ -847,7 +851,8 @@ We can put the sorted list of lines in another temporary file called `sorted-len
       9  methane.pdb
 
 Using the parameter `-1` with `head` tells it that we only want the first line of the file; `-20` would get the first 20, and so on. Since `sorted-lengths` contains the lengths of our files ordered from least to greatest, the output of `head` must be the file with the fewest lines.
-##pipe
+
+## pipe
 If you think this is confusing, you're in good company: even once you understand what `wc`, `sort`, and `head` do, all those intermediate files make it hard to follow what's going on. We can make it easier to understand by running `sort` and `head` together:
 
     $ sort -n lengths | head -1
@@ -923,7 +928,7 @@ Those numbers look good—but what's that 'Z' doing there in the third-to-last l
 
     NENE01971Z.txt    NENE02040Z.txt
 
-Sure enough, when she checks the log on her laptop, there's no depth recorded for either of those samples. Since it's too late to get the information any other way, she must exclude those two files from her analysis. She could just delete them using `rm`, but there are actually some analyses she might do later where depth doesn't matter, so instead, she'll just be careful later on to select files using the wildcard expression `[*AB].txt`. As always, the '*' matches any number of characters; the expression [`AB]` matches either an 'A' or a 'B', so this matches all the valid data files she has.
+Sure enough, when she checks the log on her laptop, there's no depth recorded for either of those samples. Since it's too late to get the information any other way, she must exclude those two files from her analysis. She could just delete them using `rm`, but there are actually some analyses she might do later where depth doesn't matter, so instead, she'll just be careful later on to select files using the wildcard expression `*[AB].txt`. As always, the `*` matches any number of characters; the expression `[AB]` matches either an 'A' or a 'B', so this matches all the valid data files she has.
 
 ---
 #### Key Points

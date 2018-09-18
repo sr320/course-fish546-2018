@@ -1,9 +1,9 @@
 class: center, middle
 
-# FISH 546 
+# FISH 546
 ## Bioinformatics for Environmental Sciences
 
-https://github.com/sr320/course-fish546-2016/wiki
+https://github.com/sr320/course-fish546-2018/wiki
 
 ##genefish.info
 
@@ -49,7 +49,7 @@ Variable backgrounds of students
 
 class: center
 
-# Important 
+# Important
 
 --
 
@@ -132,7 +132,7 @@ class: center
 - I will use a partially flipped model
 
 - Likewise you will be expected to make progress outside of class.
-- 
+-
 
 ---
 

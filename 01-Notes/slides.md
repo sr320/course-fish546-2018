@@ -1,9 +1,9 @@
 class: center, middle
 
-# FISH 546 
+# FISH 546
 ## Bioinformatics for Environmental Sciences
 
-https://github.com/sr320/course-fish546-2016/wiki
+https://github.com/sr320/course-fish546-2018/wiki
 
 ##genefish.info
 
@@ -147,15 +147,15 @@ add `readme.md`
 ---
 
 class: center, middle
- 
+
 # _README_ files
- 
+
 
 ---
-class: center, middle 
+class: center, middle
 
 >Ultimately, you’ll arrive at your own project organization system that works for you; the take-home point is: leverage directories to help stay organized.
- 
+
 ---
 
 ## Lets set up some projects
@@ -169,12 +169,11 @@ class: center, middle
 
 ---
 
-# Things to do 
+# Things to do
 
 - Quiz
 - Project Progress
-- Reading 
+- Reading
 - Make sure you are getting notificatons
 
 ---
-

@@ -14,7 +14,8 @@ Week 1
 ---
 # This Week
 
-- Make sure everyone understands/loves BASH
+- Complete the Navigating the Commandline Tutorials
+- Install Local GitHub Client
 
 
 ---

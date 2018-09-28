@@ -15,6 +15,7 @@ Week 1
 # This Week
 
 - Complete the Navigating the Commandline Tutorials
+- Create a repository (see [this issue](https://github.com/sr320/course-fish546-2018/issues/8))
 - Install Local GitHub Client
 
 

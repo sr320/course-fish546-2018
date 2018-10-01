@@ -14,7 +14,7 @@ Week 1
 ---
 # This Week
 
-- Complete the Navigating the Commandline Tutorials (note you will submit commands for question)
+- Complete the Navigating the Commandline Tutorials (note you will submit commands for a [quiz question](https://github.com/sr320/course-fish546-2018/issues/5)
 - Create a repository (see [this issue](https://github.com/sr320/course-fish546-2018/issues/8))
 - Install Local GitHub Client
 - No class Thursday (no instructor- you are welcome to work together in the classroom)
@@ -23,16 +23,8 @@ Week 1
 ---
 
 
----
 
 
-
-class: center, middle
-# Unix Shell
-
-Everyone good with the tutorial?
-
----
 class: center, middle
 # What is the shell and why do you love it?
 

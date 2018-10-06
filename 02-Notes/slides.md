@@ -1,36 +1,21 @@
 class: center, middle
 
-# FISH 546 
+# FISH 546
 ## Bioinformatics for Environmental Sciences
 
-https://github.com/sr320/course-fish546-2016/wiki
+https://github.com/sr320/course-fish546-2018/wiki
 
-##genefish.info
+Week 2
 
 Steven Roberts
 @sr320
 
 ---
 class: center, middle
+
+this week
 # Jupyter & Annotation
----
-## New Format?
-- General Announcements
-- last class / week `fu`
-- Instruction module 
-- Work on projects
----
-`issue # 16`
 
-
->I tried to make a file with Sublime 2 from the terminal using the CLI (command line interface) subl I was unsuccessful. I tried to make a symlink to subl using the instructions here but when I ran
-
-`ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl`
-
->I just got a 'no such file or dir exists error'. I didn't try too hard though, so will make another attempt
----
-
->>tutorial was really mac based so it was a little difficult to get through on the windows operating system
 ---
 
 class: center, middle
@@ -39,9 +24,9 @@ In *Jupyter* you need to add `!` before the command.
 
 ---
 # Unix Review
-last week reading
+last week reading / activity
 
-- Streams (not holding in memory)
+- What do you think about `bash`?
 
 --
 
@@ -58,13 +43,10 @@ last week reading
 
 - Pipes    
 ```
-grep -v "^>" tb1.fasta | \ 
+grep -v "^>" tb1.fasta | \
 grep --color -i "[^ATCG]"
     CCCCAAAGACGGACCAATCCAGCAGCTTCTACTGCTAYCCATGCTCCCCTCCCTTCGCCGCCGCCGACGC
 ```    
-    
-    
-
 
 
 ---
@@ -99,12 +81,9 @@ grep --color -i "[^ATCG]"
 
 class: center, middle
 
-#Read 
+#Read
 
 ---
-## Instruction module
+## Common Bioinformatics Program
 
 Blast
-
- 
- 

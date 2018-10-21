@@ -1,11 +1,14 @@
 class: center, middle
 
-# FISH 546 
+# FISH 546
 ## Bioinformatics for Environmental Sciences
 
-https://github.com/sr320/course-fish546-2016/wiki
+https://github.com/sr320/course-fish546-2018/wiki
 
-##genefish.info
+##genefish.co
+
+Week 4
+
 
 Steven Roberts
 @sr320
@@ -14,18 +17,16 @@ Steven Roberts
 
 ## Reminders
 
-- We will not going through manuals 
+- Manuals (`-help`) can be useful
 
-- 
-
-
+-
 
 ---
 
 class: center, middle
 
 
-# RNA-Seq
+# FastQC
 
 
 ---
@@ -125,7 +126,7 @@ Transrate analyses a transcriptome assembly in three key ways:
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/Screenshot_10_24_16__8_12_AM_1DBE5C48.png" alt="Screenshot_10_24_16__8_12_AM_1DBE5C48.png"/>
 
-### Example running DESeq2 
+### Example running DESeq2
 
 <https://github.com/sr320/eimd-sswd/blob/master/eimd_analysis.ipynb>
 
@@ -134,7 +135,7 @@ Transrate analyses a transcriptome assembly in three key ways:
 ---
 ### @hputnam example
 
-<https://github.com/hputnam/Montipora_Spawn_Timing/blob/master/notebooks/Mcap_Spawn_analysis_script.md> 
+<https://github.com/hputnam/Montipora_Spawn_Timing/blob/master/notebooks/Mcap_Spawn_analysis_script.md>
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/Montipora_Spawn_Timing_Mcap_Spawn_analysis_script_md_at_master_·_hputnam_Montipora_Spawn_Timing_1DBEC543.png" alt="Montipora_Spawn_Timing_Mcap_Spawn_analysis_script_md_at_master_·_hputnam_Montipora_Spawn_Timing_1DBEC543.png"/>
 
@@ -284,8 +285,3 @@ blast.Column3 = uni.Column1
 Live Demo - No Way!
 
 ---
-
-
-
-
-

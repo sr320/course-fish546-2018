@@ -28,8 +28,11 @@ class: center, middle
 
 # FastQC
 
+Demo..
+
 
 ---
+
 
 ## Transcriptome Assembly
 

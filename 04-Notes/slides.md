@@ -132,48 +132,20 @@ Transrate analyses a transcriptome assembly in three key ways:
 
 
 
----
-### @hputnam example
-
-<https://github.com/hputnam/Montipora_Spawn_Timing/blob/master/notebooks/Mcap_Spawn_analysis_script.md>
-
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/Montipora_Spawn_Timing_Mcap_Spawn_analysis_script_md_at_master_·_hputnam_Montipora_Spawn_Timing_1DBEC543.png" alt="Montipora_Spawn_Timing_Mcap_Spawn_analysis_script_md_at_master_·_hputnam_Montipora_Spawn_Timing_1DBEC543.png"/>
-
----
 
 # With Genome...
 
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/TopHat_1DBE5B6E.png" alt="TopHat_1DBE5B6E.png"/>
+<img src="http://gannet.fish.washington.edu/seashell/snaps/HISAT_2018-10-21_13-50-45.png" alt="HISAT_2018"/>
 
 
 ---
 
-## Example
+## Hisat replaces Tophat
 
 Within Cyverse
 <https://github.com/sr320/course-fish546-2015/blob/master/notebooks/Sam_RNA-seq.ipynb>
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/Screenshot_10_24_16__8_10_AM_1DBE5C07.png" alt="Screenshot_10_24_16__8_10_AM_1DBE5C07.png"/>
-
-
----
-
-class: center, middle
-
-
-# Understanding Meaning
-
----
-
-class: center, middle
-
-You have a list of _important_ genes. Now what?
-
----
-
-class: center, middle
-
-## Wait I still only have a bunch of Uniprot codes!!
 
 ---
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/eimd-sswd_eimd_analysis_ipynb_at_master_·_sr320_eimd-sswd_1DC23A83.png" alt="eimd-sswd_eimd_analysis_ipynb_at_master_·_sr320_eimd-sswd_1DC23A83.png"/>
@@ -210,78 +182,5 @@ http://www.uniprot.org/uniprot/?query=&fil=reviewed%3Ayes&columns=id%2Centry%20n
 ---
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/001_1-Downloading-databases_1DC23C18.png" alt="001_1-Downloading-databases_1DC23C18.png"/>
-
----
-
-
-class: center, middle
-
-## I can see where I am going but how do I get there...
-
----
-
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/SQLShare_1DC23CC6.png" alt="SQLShare_1DC23CC6.png"/>
-
----
-
-![upload](https://drops.azureedge.net/drops/files/acc_524195/tz8q?rscd=inline%3B%20filename%3DScreen%2520Capture%2520on%25202016-10-27%2520at%252006-50-14.gif&rsct=image%2Fgif&se=2016-10-27T14%3A20%3A29Z&sig=og3tX%2BjsmBvL7nL1QuQSgN5oYoi%2BRC57CfM12nmaMmM%3D&sp=r&sr=b&st=2016-10-27T13%3A20%3A29Z&sv=2013-08-15)
-
----
-Could upload anything....
-
-![rasta](https://drops.azureedge.net/drops/files/acc_524195/QgDs?rscd=inline%3B%20filename%3DScreen%2520Capture%2520on%25202016-10-27%2520at%252006-48-58.gif&rsct=image%2Fgif&se=2016-10-27T14%3A21%3A54Z&sig=dMyzNjr9gmZol9yPpialmpJsvg6HsRYKyoq2UoFqvD8%3D&sp=r&sr=b&st=2016-10-27T13%3A21%3A54Z&sv=2013-08-15)
-
----
-
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/SQLShare_-_View_Query_1DC23EA1.png" alt="SQLShare_-_View_Query_1DC23EA1.png"/>
-
----
-
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/SQLShare_-_View_Query_1DC23ED5.png" alt="SQLShare_-_View_Query_1DC23ED5.png"/>
-
----
-
-![select](https://drops.azureedge.net/drops/files/acc_524195/ByyU?rscd=inline%3B%20filename%3DScreen%2520Capture%2520on%25202016-10-27%2520at%252006-57-35.gif&rsct=image%2Fgif&se=2016-10-27T14%3A28%3A02Z&sig=lxdDEbo2ozc3il8ZY%2Fl4EkMLfFzve2ltEh83H0mBa6c%3D&sp=r&sr=b&st=2016-10-27T13%3A28%3A02Z&sv=2013-08-15)
-
----
-
-![join](https://drops.azureedge.net/drops/files/acc_524195/tDM4?rscd=inline%3B%20filename%3DScreen%2520Capture%2520on%25202016-10-27%2520at%252007-08-13.gif&rsct=image%2Fgif&se=2016-10-27T14%3A38%3A34Z&sig=I7j21BQywFSghMN%2F3sRq6BgA2Sb1Np3mHk9Vwol2Igk%3D&sp=r&sr=b&st=2016-10-27T13%3A38%3A34Z&sv=2013-08-15)
-
----
-
-You can just paste...
-
-```sql
-SELECT * FROM [roberts.sbr@gmail.com].[Geoduck-tranv3-blastx_sprot_1.sorted]blast
-  left join
-  [roberts.sbr@gmail.com].[uniprot-all0916]uni
-on
-blast.Column3 = uni.Column1
-```
-
-
----
-
-## Imagine you could just get a short list?
-
----
-
-<https://youtu.be/D2XjF2xqbF4>
-
-
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/CICESE__blast-sqlshare-excel_-_YouTube_🔊_1DC242CC.png" alt="CICESE__blast-sqlshare-excel_-_YouTube_🔊_1DC242CC.png"/>
-
-
----
-
-<https://www.youtube.com/watch?v=5pvl-RBq0_A>
-
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/CICESE__Steven_does_SQLShare_-_YouTube_🔊_1DC2438E.png" alt="CICESE__Steven_does_SQLShare_-_YouTube_🔊_1DC2438E.png"/>
-
-
-
----
-
-Live Demo - No Way!
 
 ---

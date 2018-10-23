@@ -127,13 +127,6 @@ Transrate analyses a transcriptome assembly in three key ways:
 
 ---
 
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/Screenshot_10_24_16__8_12_AM_1DBE5C48.png" alt="Screenshot_10_24_16__8_12_AM_1DBE5C48.png"/>
-
-### Example running DESeq2
-
-<https://github.com/sr320/eimd-sswd/blob/master/eimd_analysis.ipynb>
-
-
 
 
 # With Genome...

@@ -44,23 +44,17 @@ Next slide have hyperlinks with exercises with answers.
 
 - [R and Rstudio](https://sr320.github.io/course-fish497-2018/assignments/r-intro/)
 
---
 
 - [Working with data: dplyr](https://sr320.github.io/course-fish497-2018/assignments/r-data/)
 
---
 
 - [Data Visualization: ggplot](https://sr320.github.io/course-fish497-2018/assignments/r-datavis/)
 
---
 
 - [Project Structure](https://sr320.github.io/course-fish497-2018/materials/project-structure/)
 
---
 
 - [Version Control with R](https://sr320.github.io/course-fish497-2018/materials/version-control-R)
-
----
 
 
 - [knitr / Rmarkdown](https://sr320.github.io/course-fish497-2018/assignments/knitr/)

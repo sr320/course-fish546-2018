@@ -54,7 +54,7 @@ Next slide have hyperlinks with exercises with answers.
 
 --
 
-- Primary software - Trinity
+- [Project Structure](https://sr320.github.io/course-fish497-2018/materials/project-structure/)
 
 
 ---

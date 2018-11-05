@@ -26,9 +26,8 @@ Steven Roberts
 class: center, middle
 
 
-# R and xargs
+# R : find & xargs (411)
 
-Demo..
 
 
 ---

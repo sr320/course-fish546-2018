@@ -26,7 +26,7 @@ Steven Roberts
 class: center, middle
 
 
-# R : find & xargs (411)
+# R : scripting : find & xargs (411)
 
 ---
 
@@ -56,8 +56,22 @@ Next slide have hyperlinks with exercises with answers.
 
 - [Project Structure](https://sr320.github.io/course-fish497-2018/materials/project-structure/)
 
+--
+
+- [Version Control with R](https://sr320.github.io/course-fish497-2018/materials/version-control-R)
 
 ---
+
+
+- [knitr / Rmarkdown](https://sr320.github.io/course-fish497-2018/assignments/knitr/)
+
+
+---
+
+- [tidyr](https://r4ds.had.co.nz/tidy-data.html)
+
+---
+
 
 ## Trinity
 

@@ -62,8 +62,6 @@ Next slide have hyperlinks with exercises with answers.
 - [knitr / Rmarkdown](https://sr320.github.io/course-fish497-2018/assignments/knitr/)
 
 
----
-
 - [tidyr](https://r4ds.had.co.nz/tidy-data.html)
 
 ---
@@ -94,6 +92,13 @@ Next slide have hyperlinks with exercises with answers.
 
 
 ![d](http://gannet.fish.washington.edu/seashell/snaps/Data_Structures__Data_Science_for_SAFS_2018-11-06_10-30-30.png)
+
+
+---
+
+## dplyr
+
+
 
 
 ---

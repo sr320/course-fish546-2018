@@ -98,8 +98,23 @@ Next slide have hyperlinks with exercises with answers.
 
 ## dplyr
 
+---
+
+![basic](http://gannet.fish.washington.edu/seashell/snaps/Working_with_Tabular_Data__Data_Science_for_SAFS_2018-11-06_11-40-09.png)
 
 
+---
+
+![agg](http://gannet.fish.washington.edu/seashell/snaps/Working_with_Tabular_Data__Data_Science_for_SAFS_2018-11-06_11-41-02.png)
+
+---
+
+![joins](http://gannet.fish.washington.edu/seashell/snaps/Working_with_Tabular_Data__Data_Science_for_SAFS_2018-11-06_11-41-43.png)
+
+---
+
+
+![pipes](http://gannet.fish.washington.edu/seashell/snaps/Working_with_Tabular_Data__Data_Science_for_SAFS_2018-11-06_11-43-21.png)
 
 ---
 

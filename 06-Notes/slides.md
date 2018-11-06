@@ -118,6 +118,35 @@ Next slide have hyperlinks with exercises with answers.
 
 ---
 
+## ggplot
+
+---
+
+## Project structure
+
+![pro](http://gannet.fish.washington.edu/seashell/snaps/Project_Structure__Data_Science_for_SAFS_2018-11-06_11-58-11.png)
+
+
+---
+
+
+
+![rm](http://gannet.fish.washington.edu/seashell/snaps/Project_Structure__Data_Science_for_SAFS_2018-11-06_11-59-21.png)
+
+
+
+
+---
+
+![more](http://gannet.fish.washington.edu/seashell/snaps/Project_Structure__Data_Science_for_SAFS_2018-11-06_12-00-00.png)
+
+---
+
+![str](http://gannet.fish.washington.edu/seashell/snaps/Project_Structure__Data_Science_for_SAFS_2018-11-06_12-00-31.png)
+
+---
+
+
 ## scripting : find & xargs
 
 

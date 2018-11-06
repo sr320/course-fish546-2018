@@ -146,8 +146,41 @@ Next slide have hyperlinks with exercises with answers.
 
 ---
 
+## Version control
+
+---
+
+## knitr / R Markdown
+
+
+---
+
+## tidyr
+
+![data](http://gannet.fish.washington.edu/seashell/snaps/R_for_Data_Science_2018-11-06_12-03-54.png)
+
+
+---
+
+![cheat](http://gannet.fish.washington.edu/seashell/snaps/data-wrangling-cheatsheet_2018-11-06_12-05-43.png)
+
+https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
+---
+
 
 ## scripting : find & xargs
 
-
+```
+%%bash
+find /Volumes/Serine/wd/18-04-27/zr2096_*R1* \
+| xargs basename -s _s1_R1_val_1.fq.gz | xargs -I{} /Applications/bioinfo/Bismark_v0.19.0/bismark \
+--path_to_bowtie /Applications/bioinfo/bowtie2-2.3.4.1-macos-x86_64 \
+--genome /Volumes/Serine/wd/18-03-15/genome \
+--score_min L,0,-1.2 \
+-p 4 \
+--non_directional \
+-1 /Volumes/Serine/wd/18-04-27/{}_s1_R1_val_1.fq.gz \
+-2 /Volumes/Serine/wd/18-04-27/{}_s1_R2_val_2.fq.gz \
+2> bismark.err
+```
 ---

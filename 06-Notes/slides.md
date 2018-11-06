@@ -74,4 +74,7 @@ Next slide have hyperlinks with exercises with answers.
 
 ---
 
+## scripting : find & xargs
+
+
 ---

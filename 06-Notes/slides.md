@@ -19,7 +19,9 @@ Steven Roberts
 
 - Manuals (`-help`) can be useful
 
--
+- Cloud RESOURCES
+
+- Paths
 
 ---
 
@@ -67,9 +69,31 @@ Next slide have hyperlinks with exercises with answers.
 ---
 
 
-## Trinity
+## R and R Studio
 
-<img src="http://eagle.fish.washington.edu/cnidarian/skitch/Home_·_trinityrnaseq_trinityrnaseq_Wiki_1DBE50A5.png" alt="Home_·_trinityrnaseq_trinityrnaseq_Wiki_1DBE50A5.png"/>
+![var](http://gannet.fish.washington.edu/seashell/snaps/Introduction_to_R__Data_Science_for_SAFS_2018-11-06_10-22-44.png)
+
+---
+
+
+## R and R Studio
+
+![projects](http://gannet.fish.washington.edu/seashell/snaps/Screen_Capture_on_2018-11-06_at_10-26-25.gif)
+
+
+---
+
+
+![vectors](http://gannet.fish.washington.edu/seashell/snaps/Data_Structures__Data_Science_for_SAFS_2018-11-06_10-28-42.png)
+
+---
+
+![dataframes](http://gannet.fish.washington.edu/seashell/snaps/Data_Structures__Data_Science_for_SAFS_2018-11-06_10-29-41.png)
+
+---
+
+
+![d](http://gannet.fish.washington.edu/seashell/snaps/Data_Structures__Data_Science_for_SAFS_2018-11-06_10-30-30.png)
 
 
 ---

@@ -3,9 +3,9 @@ class: center, middle
 # FISH 546 
 ## Bioinformatics for Environmental Sciences
 
-https://github.com/sr320/course-fish546-2016/wiki
+https://github.com/sr320/course-fish546-2018/wiki
 
-##genefish.info
+##genefish.co
 
 Steven Roberts
 @sr320
